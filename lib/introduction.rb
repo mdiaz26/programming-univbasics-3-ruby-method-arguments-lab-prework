@@ -8,21 +8,21 @@ def method_name(name)
   puts "Hi, my name is #{name}."
 end
 
-method_name(name)
+method_name("Mike")
 
 #introduction_with_language
 def method_2(name, language)
   puts "Hi, my name is #{name} and I am learning to program in #{language}."
 end
 
-method_2
+method_2("Mike", "Ruby")
 
 #introduction_with_language_optional
-def method_3(name, language)
+def method_3(name, language = "Ruby")
   puts "Hi, my name is #{name} and I am learning to program in #{language}."
 end
 
-method_3
+method_3("Mike")
 
 
 
